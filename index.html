@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หัตถาพร เวลเนส แอนด์ สปา | Hatthaporn Wellness & Spa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        spaGreen: '#1E4620',   // สีเขียวหลัก สื่อถึงธรรมชาติและความผ่อนคลาย
+                        spaGold: '#D4AF37',    // สีทองพรีเมียม สื่อถึงความหรูหรา
+                        spaOrange: '#E67E22',  // สีส้ม ดึงดูดสายตาสำหรับปุ่ม Action
+                        spaYellow: '#F1C40F',  // สีเหลืองสว่าง สำหรับเน้นจุดสำคัญ
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Sarabun', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <header class="bg-spaGreen text-white shadow-lg sticky top-0 z-50 border-b border-spaGold/30">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="flex items-center space-x-3">
+                <div class="w-11 h-11 bg-spaGold rounded-full flex items-center justify-center text-spaGreen font-bold text-xl shadow-md border border-white/20">
+                    ห
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold text-spaGold leading-tight tracking-wide">หัตถาพร</h1>
+                    <p class="text-xs text-spaYellow font-medium tracking-widest">WELLNESS & SPA</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium tracking-wide">
+                <a href="#home" class="hover:text-spaYellow transition-colors duration-200">หน้าแรก</a>
+                <a href="#about" class="hover:text-spaYellow transition-colors duration-200">เกี่ยวกับเรา</a>
+                <a href="#courses" class="hover:text-spaYellow transition-colors duration-200">หลักสูตร</a>
+                <a href="#contact" class="hover:text-spaYellow transition-colors duration-200">ติดต่อเรา</a>
+            </nav>
+            <a href="#register" class="bg-spaGold hover:bg-spaYellow hover:text-spaGreen text-spaGreen font-bold px-5 py-2.5 rounded-full text-sm transition-all duration-300 shadow-md transform hover:-translate-y-0.5">
+                สมัครเรียน
+            </a>
+        </div>
+    </header>
+
+    <section id="home" class="relative bg-spaGreen text-white py-24 md:py-32 px-6 text-center border-b-4 border-spaGold">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1544161515-450a11d46666?q=80&w=1920')] bg-cover bg-center"></div>
+        <div class="relative max-w-4xl mx-auto">
+            <span class="text-spaYellow font-semibold tracking-widest text-sm uppercase">โรงเรียนสอนนวดและความงามมาตรฐานสากล</span>
+            <h2 class="text-3xl md:text-5xl font-bold my-6 leading-tight">
+                ศาสตร์แห่งการผ่อนคลายระดับพรีเมียม<br>
+                <span class="text-spaGold">สร้างอาชีพที่มั่นคงและยั่งยืน</span>
+            </h2>
+            <p class="text-slate-200 text-base md:text-xl mb-10 max-w-2xl mx-auto">
+                เรียนจบพร้อมรับใบประกาศนียบัตรรับรองอย่างถูกต้องตามกฎหมาย นำไปต่อยอดเปิดธุรกิจของตัวเอง หรือสมัครงานได้ทั้งในและต่างประเทศ
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#courses" class="bg-spaOrange hover:bg-orange-600 text-white font-semibold px-8 py-3.5 rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-0.5">
+                    ดูหลักสูตรทั้งหมด
+                </a>
+                <a href="#register" class="border-2 border-spaGold text-spaGold hover:bg-spaGold hover:text-spaGreen font-semibold px-8 py-3.5 rounded-xl transition-all duration-300">
+                    ลงทะเบียนสมัครเรียน
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container mx-auto py-20 px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=800" alt="About Hatthaporn" class="rounded-2xl shadow-xl border border-slate-200 object-cover w-full h-80 md:h-96">
+            </div>
+            <div class="w-full md:w-1/2 space-y-5">
+                <span class="text-spaOrange font-bold tracking-wider text-sm uppercase">เกี่ยวกับเรา</span>
+                <h3 class="text-2xl md:text-4xl font-bold text-spaGreen leading-tight">ทำไมต้องเรียนนวดที่<br><span class="text-spaGold">หัตถาพร เวลเนส แอนด์ สปา</span></h3>
+                <p class="text-slate-600 leading-relaxed">
+                    เรามุ่งมั่นที่จะถ่ายทอดความรู้ด้านศาสตร์การนวดไทยและการบำบัดอย่างมืออาชีพ โดยเน้นการฝึกปฏิบัติจริงกับผู้เชี่ยวชาญที่มีประสบการณ์ยาวนาน เพื่อให้นักเรียนที่จบจากเรามีทักษะที่ถูกต้อง ปลอดภัย และเป็นที่ยอมรับในระดับสากล
+                </p>
+                <div class="grid grid-cols-2 gap-4 pt-4">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-spaGold text-xl">✔</span>
+                        <span class="font-medium text-slate-700">หลักสูตรรับรองมาตรฐาน</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-spaGold text-xl">✔</span>
+                        <span class="font-medium text-slate-700">เรียนจบได้ใบประกาศฯ</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-spaGold text-xl">✔</span>
+                        <span class="font-medium text-slate-700">สอนโดยครูมืออาชีพ</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-spaGold text-xl">✔</span>
+                        <span class="font-medium text-slate-700">อุปกรณ์ครบครัน</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="bg-slate-100/80 py-20 px-6 border-y border-slate-200/60">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl md:text-4xl font-bold text-spaGreen">หลักสูตรที่เปิดสอน</h3>
+                <div class="w-20 h-1.5 bg-spaGold mx-auto mt-4 rounded-full"></div>
+                <p class="text-slate-500 mt-4 max-w-md mx-auto">เรามีหลักสูตรหลากหลายเพื่อตอบโจทย์ทุกระดับ ตั้งแต่ผู้เริ่มต้นไปจนถึงการต่อยอดทางธุรกิจ</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-slate-100 hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                    <div class="h-52 bg-slate-200 relative">
+                        <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=600" alt="คอร์สนวดไทย" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-spaGreen/90 text-spaYellow text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">ยอดนิยม</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h4 class="text-xl font-bold text-spaGreen mb-3">หลักสูตรนวดไทยเพื่อสุขภาพ (150 ชั่วโมง)</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-4">เรียนรู้พื้นฐานการนวดไทย เส้นประธานสิบ การดัด ดึง และการกดจุดอย่างถูกต้อง แม่นยำ ปลอดภัยตามหลักสากล</p>
+                        </div>
+                        <div class="flex justify-between items-center border-t border-slate-100 pt-4 mt-2">
+                            <span class="text-spaOrange font-bold text-xl">6,500 บาท</span>
+                            <a href="#register" class="text-spaGreen font-semibold hover:text-spaGold transition-colors flex items-center">สมัครเรียน <span class="ml-1">→</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-slate-100 hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                    <div class="h-52 bg-slate-200 relative">
+                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=600" alt="คอร์สนวดน้ำมันอโรมา" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-spaGreen/90 text-spaYellow text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">ผ่อนคลาย</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h4 class="text-xl font-bold text-spaGreen mb-3">หลักสูตรนวดน้ำมันอโรมา</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-4">ศาสตร์แห่งการปรนนิบัติกล้ามเนื้อและผิวพรรณด้วยน้ำมันหอมระเหยชั้นดี ช่วยลดความเครียดและความเมื่อยล้าได้อย่างล้ำลึก</p>
+                        </div>
+                        <div class="flex justify-between items-center border-t border-slate-100 pt-4 mt-2">
+                            <span class="text-spaOrange font-bold text-xl">7,500 บาท</span>
+                            <a href="#register" class="text-spaGreen font-semibold hover:text-spaGold transition-colors flex items-center">สมัครเรียน <span class="ml-1">→</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-slate-100 hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                    <div class="h-52 bg-slate-200 relative">
+                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=600" alt="คอร์สนวดแก้อาการ" class="w-full h-full object-cover">
+                        <span class="absolute top-4 left-4 bg-spaGreen/90 text-spaYellow text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">บำบัดเฉพาะทาง</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h4 class="text-xl font-bold text-spaGreen mb-3">หลักสูตรนวดแก้อาการ / สปาตัว</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-4">เน้นการบำบัดอาการยอดฮิต เช่น ออฟฟิศซินโดรม ปวดคอ บ่า ไหล่ และหลัง เหมาะสำหรับผู้ที่มีพื้นฐานมาแล้วและต้องการอัปเกรดทักษะ</p>
+                        </div>
+                        <div class="flex justify-between items-center border-t border-slate-100 pt-4 mt-2">
+                            <span class="text-spaOrange font-bold text-xl">8,900 บาท</span>
+                            <a href="#register" class="text-spaGreen font-semibold hover:text-spaGold transition-colors flex items-center">สมัครเรียน <span class="ml-1">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="py-20 px-6 bg-white border-b border-slate-200">
+        <div class="max-w-2xl mx-auto bg-white p-8 md:p-10 rounded-3xl shadow-2xl border border-slate-100">
+            <div class="text-center mb-8">
+                <span class="text-spaOrange font-bold tracking-wider text-sm uppercase">ระบบรับสมัครออนไลน์</span>
+                <h3 class="text-3xl font-bold text-spaGreen mt-2">ลงทะเบียนเรียน</h3>
+                <p class="text-slate-500 mt-2">กรอกข้อมูลให้ครบถ้วนเพื่อจองคอร์สเรียน เจ้าหน้าที่จะติดต่อกลับโดยเร็วที่สุด</p>
+                <div class="w-16 h-1 bg-spaGold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <form id="enrollmentForm" class="space-y-6">
+                <div>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">ชื่อ-นามสกุล</label>
+                    <input type="text" name="fullname" required 
+                        class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-spaGreen focus:border-transparent outline-none transition duration-200" 
+                        placeholder="เช่น นายสมชาย ใจดี">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">เบอร์โทรศัพท์ที่ติดต่อได้</label>
+                    <input type="tel" name="phone" required 
+                        class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-spaGreen focus:border-transparent outline-none transition duration-200" 
+                        placeholder="เช่น 0812345678">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">หลักสูตรที่สนใจสมัคร</label>
+                    <div class="relative">
+                        <select name="course" required 
+                            class="w-full px-4 py-3.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-spaGreen focus:border-transparent outline-none transition duration-200 bg-white cursor-pointer appearance-none">
+                            <option value="" disabled selected>กรุณาเลือกหลักสูตรที่สนใจ</option>
+                            <option value="Thai Massage (150 hrs)">หลักสูตรนวดไทยเพื่อสุขภาพ (150 ชั่วโมง)</option>
+                            <option value="Aroma Oil Massage">หลักสูตรนวดน้ำมันอโรมา</option>
+                            <option value="Therapeutic Massage">หลักสูตรนวดแก้อาการ / สปาตัว</option>
+                        </select>
+                        <div class="absolute inset-y-0 right-4 flex items-center pointer-events-none text-slate-400">▼</div>
+                    </div>
+                </div>
+
+                <button type="submit" id="submitBtn" 
+                    class="w-full bg-spaOrange hover:bg-orange-600 text-white font-bold py-4 rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex justify-center items-center">
+                    <span>ส่งข้อมูลสมัครเรียน</span>
+                </button>
+            </form>
+
+            <div id="successMessage" class="hidden mt-6 p-6 bg-green-50 border border-green-200 text-green-800 rounded-2xl text-center shadow-inner">
+                <div class="text-spaGreen font-bold text-xl mb-1">✓ ส่งข้อมูลเรียบร้อยแล้ว</div>
+                <p class="text-sm">ขอบคุณที่สนใจเรียนกับเรา เจ้าหน้าที่หัตถาพรจะติดต่อกลับไปหาคุณในไม่ช้าครับ</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-slate-50 py-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-spaGreen">ติดต่อเรา</h3>
+                <div class="w-16 h-1 bg-spaGold mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg font-bold text-spaGreen mb-1">ที่ตั้งโรงเรียน</h4>
+                        <p class="text-slate-600 leading-relaxed">โรงเรียนหัตถาพร เวลเนส แอนด์ สปา <br>เลขที่ 123 ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110</p>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-bold text-spaGreen mb-1">ช่องทางการติดต่อ</h4>
+                        <p class="text-slate-600">เบอร์โทรศัพท์: 081-234-5678</p>
+                        <p class="text-slate-600">LINE ID: @hatthaporn_spa</p>
+                        <p class="text-slate-600">Facebook: หัตถาพร เวลเนส แอนด์ สปา</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200 h-64 bg-slate-200 flex items-center justify-center text-slate-400">
+                    <p class="p-4 text-center text-sm font-medium">แผนที่ Google Maps</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-spaGreen text-white py-8 border-t-2 border-spaGold">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-sm text-slate-300">© 2026 หัตถาพร เวลเนส แอนด์ สปา (Hatthaporn Wellness & Spa). สงวนลิขสิทธิ์</p>
+        </div>
+    </footer>
+
+    <script>
+        // ลิงก์ระบบหลังบ้าน Google Apps Script ของคุณ
+        const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzyNnUuI20OcHPH2ZcLAYG192s3_s3p5kv0221rla0tQPHPL3hbWUQ3pfPza98iuZkR/exec';
+
+        const form = document.getElementById('enrollmentForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const successMessage = document.getElementById('successMessage');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // เปลี่ยนข้อความบนปุ่มขณะส่ง
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = `
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>กำลังส่งข้อมูล...</span>
+            `;
+            submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+
+            const formData = new FormData(form);
+            const data = {};
+            formData.forEach((value, key) => data[key] = value);
+
+            // ส่งข้อมูลไปยัง Google Sheets
+            fetch(WEB_APP_URL, {
+                method: 'POST',
+                mode: 'no-cors', 
+                cache: 'no-cache',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(() => {
+                // ซ่อนฟอร์มและแสดงข้อความสำเร็จเมื่อส่งเสร็จ
+                form.classList.add('hidden');
+                successMessage.classList.remove('hidden');
+            })
+            .catch(error => {
+                alert('เกิดข้อผิดพลาดในการส่งข้อมูล กรุณาลองใหม่อีกครั้ง');
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<span>ส่งข้อมูลสมัครเรียน</span>';
+                submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+                console.error('Error!', error.message);
+            });
+        });
+    </script>
+</body>
+</html>
